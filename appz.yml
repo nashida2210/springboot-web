@@ -1,7 +1,7 @@
 app:
   code: SBW
   name: Spring Boot Web
-  notify: appzdev@cloudbourne.co
+  notify: nmeeran@cloudbourne.com
   
 build:
   build_file: pom.xml
@@ -11,7 +11,7 @@ build:
   version: 0.4
   
 deploy:
-  context: alpha/DEV
+  context: nashida2210/DEV
   port: 8080
   replicas: 1
   
