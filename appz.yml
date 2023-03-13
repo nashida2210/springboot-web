@@ -15,6 +15,10 @@ deploy:
   port: 8080
   replicas: 1
   strategy: rolling
+  readinessProbe:
+    tcpSocket:
+      port: 8080
+    periodSeconds: 2
   
 properties:
   title: Spring Boot Web - tuesday
